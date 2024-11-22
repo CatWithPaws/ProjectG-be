@@ -369,6 +369,12 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "NunitXml.TestLogger/4.1.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.0/NUnitXml.TestLogger.props": {}
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
@@ -954,6 +960,24 @@
         "nunit3testadapter.nuspec"
       ]
     },
+    "NunitXml.TestLogger/4.1.0": {
+      "sha512": "l2zl8JttE12XY2QOf/W/PWcukhzp0Ez2XpD5s1HDk/RoLE3QLVKvQoOlAIbzbchtScNN9Hmuv6Iku6XOtZMrGg==",
+      "type": "package",
+      "path": "nunitxml.testlogger/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll",
+        "build/_common/Spekt.TestLogger.dll",
+        "build/net45/NUnitXml.TestLogger.props",
+        "build/netstandard1.0/NUnitXml.TestLogger.props",
+        "docs/CHANGELOG.md",
+        "docs/README.md",
+        "nunitxml.testlogger.4.1.0.nupkg.sha512",
+        "nunitxml.testlogger.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Reflection.Metadata/1.6.0": {
       "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
@@ -982,6 +1006,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.2.1",
+      "NunitXml.TestLogger >= 4.1.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -1037,6 +1062,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.2.1, )"
+          },
+          "NunitXml.TestLogger": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           },
           "coverlet.collector": {
             "target": "Package",

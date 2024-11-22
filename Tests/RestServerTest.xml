@@ -1,0 +1,12 @@
+<test-run id="2" duration="0.019806" testcasecount="1" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-11-22T17:33:37Z" end-time="2024-11-22T17:33:38Z">
+  <test-suite type="Assembly" name="RestServer.Test.dll" fullname="/home/lequile/Projects/TicTakToe/Backend/RestServer.Test/bin/Debug/net8.0/RestServer.Test.dll" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-11-22T17:33:37Z" end-time="2024-11-22T17:33:37Z" duration="0.019806">
+    <test-suite type="TestSuite" name="RestServer" fullname="RestServer" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-11-22T17:33:37Z" end-time="2024-11-22T17:33:37Z" duration="0.019806">
+      <test-suite type="TestSuite" name="Test" fullname="RestServer.Test" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-11-22T17:33:37Z" end-time="2024-11-22T17:33:37Z" duration="0.019806">
+        <test-suite type="TestFixture" name="Tests" fullname="RestServer.Test.Tests" classname="RestServer.Test.Tests" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-11-22T17:33:37Z" end-time="2024-11-22T17:33:37Z" duration="0.019806">
+          <test-case name="Test1" fullname="RestServer.Test.Tests.Test1" methodname="Test1" classname="Tests" result="Passed" start-time="2024-11-22T17:33:37Z" end-time="2024-11-22T17:33:37Z" duration="0.019806" asserts="0" seed="519181416" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>

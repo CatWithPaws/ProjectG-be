@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b7SG9FjKYKUXLpt11IbD3k4cAN7b4xBXbI9zPdYjd4yAWOK4DZsKwccm4xnaBIEjnaet+xlrs8kB9JeXMU2I1w==",
+  "dgSpecHash": "Zl6JtXr9aYdva7Iyot3XzFBo17bcox7otWCbHyXA7KmNo2hE63ATTpLvycNo7aoZPsrKpzbz2ENA6efJrtOwag==",
   "success": true,
   "projectFilePath": "/home/lequile/Projects/TicTakToe/Backend/RestServer.Test/RestServer.Test.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/home/lequile/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/home/lequile/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
     "/home/lequile/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
+    "/home/lequile/.nuget/packages/nunitxml.testlogger/4.1.0/nunitxml.testlogger.4.1.0.nupkg.sha512",
     "/home/lequile/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
     "/home/lequile/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
   ],
