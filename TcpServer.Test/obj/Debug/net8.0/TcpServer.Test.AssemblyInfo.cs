@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TcpServer.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6f6b515c096f0339fcd1b42e7d98fe243b08ccd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec42cddbb8e32a5690b84387c10de3c8a6ca9f16")]
 [assembly: System.Reflection.AssemblyProductAttribute("TcpServer.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TcpServer.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
