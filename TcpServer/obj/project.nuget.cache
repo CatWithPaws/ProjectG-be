@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2omjKbxPv0Cjjlyz79Jg0zuoqYQfy7VufXdO1zUfMH8bF5Z3DSYJKZxAfk5+5EAo3+qJz0ecukM/iUA83lPlBw==",
+  "success": true,
+  "projectFilePath": "/home/lequile/Projects/TicTakToe/Backend/TcpServer/TcpServer.csproj",
+  "expectedPackageFiles": [
+    "/home/lequile/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
