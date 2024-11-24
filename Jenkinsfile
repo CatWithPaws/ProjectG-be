@@ -30,6 +30,7 @@ pipeline {
                         variable: 'url')
                     ]) {
                         sh 'curl -X POST $url'
+                        
                     }
                 }
             }
