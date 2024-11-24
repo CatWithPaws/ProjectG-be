@@ -33,9 +33,9 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     user: root
     expose:
-      - 5432
+      - 5001
     ports:
-      - 5432:5432
+      - 5001:5001
     volumes:
       - "./postgres/data/:/var/lib/postgresql/data"
     restart: always
