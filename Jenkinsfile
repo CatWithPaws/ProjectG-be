@@ -26,10 +26,10 @@ pipeline {
                 script{
                     withCredentials([
                         string(
-                        credentialsId: 'Jenkins-TicTacToe-BE-DeployUrl-Trigger',
+                        credentialsId: 'Jenkins-ProjectG-BE-DeployUrl-Trigger',
                         variable: 'url')
                     ]) {
-                        sh 'curl -I $url'  
+                        sh 'curl -I url'
                     }
                 }
             }
