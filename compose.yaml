@@ -4,7 +4,7 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     ports:
-      - 80:80
+      - 100:100
     restart: unless-stopped
     depends_on:
       - rest-server
