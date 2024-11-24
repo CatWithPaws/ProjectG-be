@@ -29,8 +29,8 @@ pipeline {
                         credentialsId: 'Jenkins-ProjectG-BE-DeployUrl-Trigger',
                         variable: 'url')
                     ]) {
-                        sh 'curl -X POST $url'
-                        
+                        sh 'curl -X POST "$url"'
+
                     }
                 }
             }
