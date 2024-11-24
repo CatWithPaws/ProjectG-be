@@ -2,9 +2,9 @@ services:
   proxy:
     image: nginx:stable-alpine3.20
     volumes:
-      -./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     ports:
-      -80:80
+      - 80:80
     restart: unless-stopped
     depends_on:
       - rest-server
@@ -30,7 +30,7 @@ services:
   db:
     image: postgres:16.4
     environment:
-      POSTGRES_PASSWORD: db_pass
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     user: root
     expose:
       - 5432
@@ -39,7 +39,3 @@ services:
     volumes:
       - "./postgres/data/:/var/lib/postgresql/data"
     restart: always
-
-secrets:
-  db_pass:
-    file:Secrets/db_pass.txt
