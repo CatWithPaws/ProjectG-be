@@ -1,0 +1,4 @@
+secretGenerator:
+- name: db-user-pass
+  envs:
+  - .env

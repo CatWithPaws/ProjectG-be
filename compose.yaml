@@ -8,20 +8,20 @@ services:
     restart: unless-stopped
     depends_on:
       - rest-server
-      - tcp-server
+      - game-server
   rest-server:
     build:
-      context: "./RestServer"
-      dockerfile: Dockerfile
+      context: "./"
+      dockerfile: RestServerDockerfile
     expose:
       - 5000
     restart: unless-stopped
     depends_on:
       - db
-  tcp-server:
+  game-server:
     build:
-      context: "./TcpServer"
-      dockerfile: Dockerfile
+      context: "./"
+      dockerfile: GameServerDockerfile
     expose:
       - 4000
     restart: unless-stopped

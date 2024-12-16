@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f ../compose.yaml
+    kompose.version: 1.34.0 (HEAD)
+  labels:
+    io.kompose.service: game-server
+  name: game-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: game-server
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -f ../compose.yaml
+        kompose.version: 1.34.0 (HEAD)
+      labels:
+        io.kompose.service: game-server
+    spec:
+      containers:
+        - image: game-server
+          name: game-server
+          ports:
+            - containerPort: 4000
+              protocol: TCP
+      restartPolicy: Always

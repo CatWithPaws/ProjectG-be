@@ -1,0 +1,12 @@
+FROM mcr.microsoft.com/dotnet/sdk AS base
+
+WORKDIR /app
+COPY . .
+RUN dotnet restore
+WORKDIR /app/GameServer
+RUN dotnet publish GameServer.csproj -c Release -o /app/GameServer/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet
+WORKDIR /app/GameServer
+COPY --from=base /app/GameServer/publish .
+ENTRYPOINT [ "dotnet", "GameServer.dll" ]

@@ -1,0 +1,2 @@
+POSTGRES_PASSWORD=password!23
+DB__CONNECTION__STRING="Host=db;Username=postgres;Password=password!23;Database=TeamFindAPI;Pooling=true;"

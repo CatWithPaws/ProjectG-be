@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
       }
     }
   },
@@ -439,10 +449,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Library >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -452,11 +468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lequile/Projects/TicTakToe/Backend/RestServer/RestServer.csproj",
+      "projectUniqueName": "/home/lequile/Projects/ProjectG/Backend/RestServer/RestServer.csproj",
       "projectName": "RestServer",
-      "projectPath": "/home/lequile/Projects/TicTakToe/Backend/RestServer/RestServer.csproj",
+      "projectPath": "/home/lequile/Projects/ProjectG/Backend/RestServer/RestServer.csproj",
       "packagesPath": "/home/lequile/.nuget/packages/",
-      "outputPath": "/home/lequile/Projects/TicTakToe/Backend/RestServer/obj/",
+      "outputPath": "/home/lequile/Projects/ProjectG/Backend/RestServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lequile/.nuget/NuGet/NuGet.Config"
@@ -470,7 +486,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/lequile/Projects/ProjectG/Backend/Library/Library.csproj": {
+              "projectPath": "/home/lequile/Projects/ProjectG/Backend/Library/Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

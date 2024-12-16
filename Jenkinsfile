@@ -12,8 +12,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing TcpServer project'
-                sh 'dotnet test TcpServer.Test  --results-directory ./Tests --logger:"nunit;LogFileName=TcpServerTest.xml"'
-                nunit testResultsPattern: 'Tests/TcpServerTest.xml',failIfNoResults:'true',failedTestsFailBuild: 'true'
+                sh 'dotnet test TcpServer.Test  --results-directory ./Tests --logger:"nunit;LogFileName=GameServer.xml"'
+                nunit testResultsPattern: 'Tests/GameServer.xml',failIfNoResults:'true',failedTestsFailBuild: 'true'
 
                 echo 'Testing RestServer project'
                 sh 'dotnet test RestServer.Test --results-directory ./Tests --logger:"nunit;LogFileName=RestServerTest.xml"'

@@ -1016,11 +1016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lequile/Projects/TicTakToe/Backend/RestServer.Test/RestServer.Test.csproj",
+      "projectUniqueName": "/home/lequile/Projects/ProjectG/Backend/RestServer.Test/RestServer.Test.csproj",
       "projectName": "RestServer.Test",
-      "projectPath": "/home/lequile/Projects/TicTakToe/Backend/RestServer.Test/RestServer.Test.csproj",
+      "projectPath": "/home/lequile/Projects/ProjectG/Backend/RestServer.Test/RestServer.Test.csproj",
       "packagesPath": "/home/lequile/.nuget/packages/",
-      "outputPath": "/home/lequile/Projects/TicTakToe/Backend/RestServer.Test/obj/",
+      "outputPath": "/home/lequile/Projects/ProjectG/Backend/RestServer.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lequile/.nuget/NuGet/NuGet.Config"
