@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: rest-server
-        image: rest_server
+        image: lequile/projectg:backend 
         ports:
         - containerPort: 5000
