@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: rest-server
-        image: rest-server
+        image: rest_server
         imagePullPolicy: Never
         ports:
         - containerPort: 5000

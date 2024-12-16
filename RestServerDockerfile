@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk AS base
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS base
 
 WORKDIR /app
 COPY . .
@@ -6,7 +6,7 @@ RUN dotnet restore
 WORKDIR /app/RestServer
 RUN dotnet publish RestServer.csproj -c Release -o /app/RestServer/publish
 
-FROM mcr.microsoft.com/dotnet/aspnet
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 ENV ASPNETCORE_URLS=http://+:5000
 WORKDIR /app/RestServer
 COPY --from=base /app/RestServer/publish .
